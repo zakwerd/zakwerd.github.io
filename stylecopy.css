@@ -1,0 +1,139 @@
+/*MAIN CSS DEFINITIONS*******************************************/
+body {
+  color: black;
+  background-color: #039be5;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc {
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#page-header {
+    background-color: orange;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    left: 0px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#page-title {
+    color: white;
+    font-size: 38px;
+}
+
+#page-subtitle {
+    font-size: 24px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+#main-doc header{
+  text-align: left;
+  margin: 0px;
+}
+
+.main-section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: black;
+}
+
+.chapter-header {
+    font-weight: lighter;
+}
+
+section article {
+  color: black;
+  margin: 15px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #fbc02d;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/*NAVIGATION BAR*************************************************/
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: black;
+    background-color: white;
+}
+  
+#navbar-header {
+      color: black;
+      margin: 10px;
+      text-align: center;
+      font-size: 1.8em;
+      font-weight: thin;
+      font-family: "Open Sans", sans-serif;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+  
+#navbar li {
+    color: black;
+    background-color: white;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+  
+#navbar li:hover {
+      background-color: #fbc02d;
+      transition-duration: .4s;
+}
+  
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar a:hover {
+    color: white;
+    transition-duration: .1s;
+}
